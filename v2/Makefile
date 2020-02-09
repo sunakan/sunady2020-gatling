@@ -2,6 +2,7 @@ export DOCKER_GATLING_TAG=2.3.1
 export MY_NETWORK=my-network
 
 ash:
+	mkdir -p gatling-results
 	docker run \
     --rm \
     --interactive \
