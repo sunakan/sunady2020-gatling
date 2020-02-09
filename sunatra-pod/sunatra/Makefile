@@ -7,6 +7,7 @@ build:
 
 bash:
 	docker run \
+    --rm \
     --interactive \
     --tty \
     --publish 5678:5678 \
@@ -16,6 +17,7 @@ bash:
 
 up:
 	docker run \
+    --rm \
     --interactive \
     --tty \
     --publish 4567:4567 \
