@@ -20,6 +20,5 @@ class SunatraSimuration extends Simulation {
              ))
 
   //setUp(scn.inject(atOnceUsers(1)).protocols(httpProtocol))
-  // N人でX秒間リクエストし続ける
   setUp(scn.inject(constantUsersPerSec(10) during (60))).protocols(httpProtocol)
 }
