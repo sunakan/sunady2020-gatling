@@ -1,0 +1,11 @@
+= Gatlingの勉強
+
+* 適当なsinatraアプリに対してGatling砲してみる
+
+= 用意したのは3つのshell
+
+* app用
+* gatlingの結果を表示するためのnginx用
+* gatling用
+
+image::https://github.com/sunakan/sunady2020-gatling/blob/media/my-sample/media/demo.gif?raw=true["Demo", width=800, link=https://github.com/sunakan/sunady2020-gatling/blob/media/my-sample/media/demo.gif]
